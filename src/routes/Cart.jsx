@@ -4,10 +4,10 @@ import CartNavbar from "../components/UI/CartNavbar";
 
 function Cart() {
     return (
-        <Fragment>
+        <div className="bg-gray-50">
             <CartNavbar />
             <CartMenu />
-        </Fragment>
+        </div>
     );
 }
 

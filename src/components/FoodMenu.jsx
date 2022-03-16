@@ -13,12 +13,12 @@ function FoodMenu() {
     }, []);
 
     return (
-        <section className="mt-10 flex flex-col justify-center" id="menu">
-            <h1 className="text-5xl text-center">
+        <section className="bg-gray-50 pt-5 flex flex-col justify-center" id="menu">
+            <h1 className="text-3xl text-center">
                 Menu
             </h1>
-            <Card className="flex justify-evenly mt-8">
-                <div className="flex lg:w-4/6 sm:w-screen justify-center p-4 mb:w-full">
+            <Card className="flex justify-evenly mt-5">
+                <div className="flex w-full sm:w-[90%] lg:w-3/5 justify-center bg-white rounded-lg">
                     <MenuItems menu={menu} />
                 </div>
             </Card>

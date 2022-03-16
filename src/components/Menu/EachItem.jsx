@@ -20,7 +20,7 @@ function EachItem(props) {
         props.addNewItem(item);
     };
     return (
-        <li className="flex px-8 py-4 rounded-lg shadow-2xl mb-5 justify-between">
+        <li className="flex px-8 py-4 border-b mb-3 justify-between">
             <div>
                 <h1 className="font-bold text-lg">{props.data[0]}</h1>
                 <p className="italic">{props.data[1]}</p>
